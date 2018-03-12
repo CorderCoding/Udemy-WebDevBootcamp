@@ -1,0 +1,87 @@
+body {
+	background: linear-gradient(to right, #23ff8d, #22ffc4);
+	font-family: "bookman old style";
+}
+
+#container {
+	width: 360px;
+	margin: 100px auto;
+	background-color: #DDD;
+}
+
+h1 {
+	font-size: 50px;
+	background-color: #50FF50;
+	color: white;
+	margin: 0;
+	padding: 10px;
+}
+
+button {
+	background-color: #50FF50;
+	color: white;
+	border: none;
+}
+
+button:focus {
+	outline: none;
+}
+
+.fa-plus {
+	float: right;
+}
+
+input {
+	background-color: #DDD;
+	margin: 0;
+	width: 100%;
+	border: none;
+	font-size: 20px;
+	padding: 10px;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+
+input:focus {
+	outline: none;
+}
+
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	background: white;
+	height: 40px;
+	line-height: 40px;
+	font-size: 20px;
+}
+
+li:nth-child(2n) {
+	background: #DDD;
+}
+
+li span {
+	height: 40px;
+	width: 0px;
+	display: inline-block;
+	margin-right: 20px;
+	background-color: red;
+	text-align: center;
+	color: white;
+	opacity: 0;
+}
+
+li:hover span {
+	width: 40px;
+	transition: 0.2s linear;
+	opacity: 1;
+}
+
+.done {
+	text-decoration: line-through;
+	opacity: .5;
+}
